@@ -33,7 +33,7 @@ const NavMenu = () => {
                     </DrawerBody>
 
                     <DrawerFooter>
-                        <Text w='100%' >Footer</Text>
+                        <Text w='100%' ></Text>
                     </DrawerFooter>
 
                 </DrawerContent>
