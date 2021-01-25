@@ -30,15 +30,16 @@ const Cart = () => {
             isOpen={isCartOpen}
             placement="right"
             onClose={closeCart}
+            size='sm'
             >
                 <DrawerOverlay>
                     <DrawerContent>
                         <DrawerCloseButton />
-                        <DrawerHeader>Your Shopping Cart</DrawerHeader>
+                        <DrawerHeader>Shopping Cart</DrawerHeader>
 
                         <DrawerBody>
                             {
-                                checkout.lineItems && checkout.lineItems.map(item => (
+                                checkout.lineItems?.length ? checkout.lineItems.map(item => (
                                     <Grid templateColumns='repeat(4, 1fr)' gap={1} key={item.id} >
                                         
                                         <Flex alignItems='center' justifyContent='center' >
@@ -59,15 +60,17 @@ const Cart = () => {
                                         </Flex>
 
                                     </Grid>
-                                ))
+                                )) : <div>Your shopping cart is empty</div>
                             }
                         </DrawerBody>
 
-                        <DrawerFooter>
-                            <Button w='100%' >
-                                <Link href={checkout.webUrl} w='100%' >Checkout</Link>
-                            </Button>
-                        </DrawerFooter>
+                        { checkout.lineItems?.length ?
+                            <DrawerFooter>
+                                <Button w='100%' >
+                                    <Link href={checkout.webUrl} w='100%' >Checkout</Link>
+                                </Button>
+                            </DrawerFooter> : null
+                        }
                     </DrawerContent>
                 </DrawerOverlay>
             </Drawer>   
