@@ -13,7 +13,8 @@ import {
     Text,
     Flex,
     Image,
-    Link
+    Link,
+    Box
 } from '@chakra-ui/react'
 import { CloseIcon } from '@chakra-ui/icons'
 
@@ -60,7 +61,12 @@ const Cart = () => {
                                         </Flex>
 
                                     </Grid>
-                                )) : <div>Your shopping cart is empty</div>
+                                )) : 
+                                <Box h='100%' w='100%' >
+                                    <Text h='100%' display='flex' flexDir='column' alignItems='center' justifyContent='center' fontWeight='bold'>
+                                        Your Shopping Cart is empty.
+                                    </Text>
+                                </Box>
                             }
                         </DrawerBody>
 
