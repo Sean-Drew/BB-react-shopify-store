@@ -11,7 +11,7 @@ const NavBar = () => {
         <Flex backgroundColor='#FFA8E2' flexDir='row' justifyContent='space-between' p='2rem'>
             <Icon fill='white' cursor='pointer' as={MdMenu} w={30} h={30} />
             <Image img src={'/Logologo_1.svg'} w={100} h={100}/>
-            <Icon fill='white' cursor='pointer' as={MdShoppingBasket} w={30} h={30} />
+            <Icon fill='white' cursor='pointer' as={MdShoppingBasket} w={30} h={30} onClick={() => openCart()} />
         </Flex>
     )
 }
