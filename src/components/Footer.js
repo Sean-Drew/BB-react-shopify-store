@@ -6,11 +6,11 @@ const Footer = () => {
     return (
         <Box backgroundColor='#FFA8E2' >
             <Grid templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']} color='white' fontWeight='bold' >
-                <Image img='true' src={'/Bath_Bomb_Product-5_trans_1.webp'} />
+                <Image img='true' src={'/Bath-Bomb-Footer-Img.webp'} />
                 <VStack p='2rem' >
-                    <Link to='/'>The Green Blast</Link>    
-                    <Link to='/'>The Blue Berry</Link>
-                    <Link to='/'>The Yellow Mellow</Link>
+                    <Link to='/products/green-blast'>The Green Blast</Link>    
+                    <Link to='/products/blue-berry'>The Blue Berry</Link>
+                    <Link to='/products/yellow-mellow'>The Yellow Mellow</Link>
                 </VStack>
                 <VStack p='2rem' >
                     <Link to='/'>About Us</Link>    
