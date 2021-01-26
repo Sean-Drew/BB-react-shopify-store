@@ -5,6 +5,7 @@ import ProductPage from './pages/ProductPage'
 import NavBar from './components/NavBar'
 import Cart from './components/Cart'
 import NavMenu from './components/NavMenu'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -24,7 +25,7 @@ function App() {
           </Route>
         </Switch>
 
-        <p>Footer</p>
+        <Footer />
       </Router>
     </div>
   );
