@@ -5,7 +5,7 @@ import { Grid, Box, Text, Image, VStack } from '@chakra-ui/react'
 const Footer = () => {
     return (
         <Box backgroundColor='#FFA8E2' >
-            <Grid templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']} color='white' fontWeight='bold' >
+            <Grid templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']} color='white' fontWeight='bold' alignItems='center' >
                 <Image img='true' src={'/Bath-Bomb-Footer-Img.webp'} />
                 <VStack p='2rem' >
                     <Link cursor='pointer' to='/products/green-blast'>The Green Blast</Link>    
