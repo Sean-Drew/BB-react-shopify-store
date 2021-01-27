@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BB-react-shopify-store/static/css/main.2fb5e29c.chunk.css",
+    "main.js": "/BB-react-shopify-store/static/js/main.61821051.chunk.js",
+    "main.js.map": "/BB-react-shopify-store/static/js/main.61821051.chunk.js.map",
+    "runtime-main.js": "/BB-react-shopify-store/static/js/runtime-main.cb40e190.js",
+    "runtime-main.js.map": "/BB-react-shopify-store/static/js/runtime-main.cb40e190.js.map",
+    "static/js/2.20cc68ce.chunk.js": "/BB-react-shopify-store/static/js/2.20cc68ce.chunk.js",
+    "static/js/2.20cc68ce.chunk.js.map": "/BB-react-shopify-store/static/js/2.20cc68ce.chunk.js.map",
+    "static/js/3.b1f1ca08.chunk.js": "/BB-react-shopify-store/static/js/3.b1f1ca08.chunk.js",
+    "static/js/3.b1f1ca08.chunk.js.map": "/BB-react-shopify-store/static/js/3.b1f1ca08.chunk.js.map",
+    "index.html": "/BB-react-shopify-store/index.html",
+    "static/css/main.2fb5e29c.chunk.css.map": "/BB-react-shopify-store/static/css/main.2fb5e29c.chunk.css.map",
+    "static/js/2.20cc68ce.chunk.js.LICENSE.txt": "/BB-react-shopify-store/static/js/2.20cc68ce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb40e190.js",
+    "static/js/2.20cc68ce.chunk.js",
+    "static/css/main.2fb5e29c.chunk.css",
+    "static/js/main.61821051.chunk.js"
+  ]
+}
