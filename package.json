@@ -1,7 +1,7 @@
 {
   "name": "shopify-react",
-  "version": "0.1.0",
-  "homepage": "/",
+  "homepage": "https://Sean-Drew.github.io/BB-react-shopify-store",
+  "version": "0.1.5",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^1.0.3",
