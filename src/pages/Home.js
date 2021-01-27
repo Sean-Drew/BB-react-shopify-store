@@ -6,6 +6,8 @@ import { ShopContext } from '../context/shopProvider'
 import Hero from '../components/Hero'
 import ImageWithText from '../components/ImageWithText'
 import RichText from '../components/RichText'
+import bathBombImg1 from '../assets/Bath-Bomb-Image-1.webp'
+import bathBombImg2 from '../assets/Bath-Bomb-Image-2.jpg'
 
 const textBlockStandard = 'Bath bombs take you from stressed to relaxed in seconds. All you have to do is fill your bathtub with warm water, add your bath bomb then get inside. It couldn\'t be easier!'
 const textBlockReverse = 'Bath bombs are for everyone, but just like food or movies, everyone has different tastes. To make the most out of your bath bomb experience keep in mind your preferences for aroma, color, ingredients (such as essential oils and moisturizers) as well as what atmosphere most relaxes you.'
@@ -49,8 +51,8 @@ const Home = () => {
             <RichText 
                 heading="Treat yourself!" 
             />
-            <ImageWithText heading={headingStandard} text={textBlockStandard} image={'Bath-Bomb-Image-1.webp'} />
-            <ImageWithText heading={headingReverse} reverse text={textBlockReverse} image={'Bath-Bomb-Image-2.jpg'} />
+            <ImageWithText heading={headingStandard} text={textBlockStandard} image={bathBombImg1} />
+            <ImageWithText heading={headingReverse} reverse text={textBlockReverse} image={bathBombImg2} />
         </Box>
     )
 }

@@ -26,9 +26,9 @@ const NavMenu = () => {
                     
                     <DrawerBody>
                         <VStack p='2rem' >
-                            <Link to='/products/green-blast' cursor='pointer'>The Green Blast</Link>
-                            <Link to='/products/blue-berry' cursor='pointer'>The Blue Berry</Link>
-                            <Link to='/products/yellow-mello' cursor='pointer'>The Yellow Mello</Link>
+                            <Link to='/products/green-blast' onClick={closeMenu} cursor='pointer'>The Green Blast</Link>
+                            <Link to='/products/blue-berry' onClick={closeMenu} cursor='pointer'>The Blue Berry</Link>
+                            <Link to='/products/yellow-mellow' onClick={closeMenu} cursor='pointer'>The Yellow Mello</Link>
                         </VStack>
                     </DrawerBody>
 

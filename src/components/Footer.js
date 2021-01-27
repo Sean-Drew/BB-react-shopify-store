@@ -1,18 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Grid, Box, Text, Image, VStack } from '@chakra-ui/react'
+import bbFooterImg from '../assets/Bath-Bomb-Footer-Img.webp'
 
 const Footer = () => {
     return (
         <Box backgroundColor='#FFA8E2' >
             <Grid templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']} color='white' fontWeight='bold' alignItems='center' >
-                <Image img='true' src={'/Bath-Bomb-Footer-Img.webp'} />
+                <Image pl='6rem' img='true' src={bbFooterImg} />
                 <VStack p='2rem' >
                     <Link cursor='pointer' to='/products/green-blast'>The Green Blast</Link>    
                     <Link cursor='pointer' to='/products/blue-berry'>The Blue Berry</Link>
-                    <Link cursor='pointer' to='/products/yellow-mello'>The Yellow Mello</Link>
+                    <Link cursor='pointer' to='/products/yellow-mellow'>The Yellow Mello</Link>
                 </VStack>
-                <Image img='true' src={'/Bath-Bomb-Footer-Img.webp'} />
+                <Image pr='6rem' img='true' src={bbFooterImg} />
                 {/* <VStack p='2rem' >
                     <Link cursor='pointer' to='/'>About Us</Link>    
                     <Link cursor='pointer' to='/'>Learn More</Link>
