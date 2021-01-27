@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/BB-react-shopify-store/static/css/main.2fb5e29c.chunk.css",
-    "main.js": "/BB-react-shopify-store/static/js/main.8ea394db.chunk.js",
-    "main.js.map": "/BB-react-shopify-store/static/js/main.8ea394db.chunk.js.map",
-    "runtime-main.js": "/BB-react-shopify-store/static/js/runtime-main.cb40e190.js",
-    "runtime-main.js.map": "/BB-react-shopify-store/static/js/runtime-main.cb40e190.js.map",
-    "static/js/2.20cc68ce.chunk.js": "/BB-react-shopify-store/static/js/2.20cc68ce.chunk.js",
-    "static/js/2.20cc68ce.chunk.js.map": "/BB-react-shopify-store/static/js/2.20cc68ce.chunk.js.map",
-    "static/js/3.b1f1ca08.chunk.js": "/BB-react-shopify-store/static/js/3.b1f1ca08.chunk.js",
-    "static/js/3.b1f1ca08.chunk.js.map": "/BB-react-shopify-store/static/js/3.b1f1ca08.chunk.js.map",
-    "index.html": "/BB-react-shopify-store/index.html",
-    "static/css/main.2fb5e29c.chunk.css.map": "/BB-react-shopify-store/static/css/main.2fb5e29c.chunk.css.map",
-    "static/js/2.20cc68ce.chunk.js.LICENSE.txt": "/BB-react-shopify-store/static/js/2.20cc68ce.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.2fb5e29c.chunk.css",
+    "main.js": "/static/js/main.81ea39e2.chunk.js",
+    "main.js.map": "/static/js/main.81ea39e2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d1a5da6f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d1a5da6f.js.map",
+    "static/js/2.59cc8ab2.chunk.js": "/static/js/2.59cc8ab2.chunk.js",
+    "static/js/2.59cc8ab2.chunk.js.map": "/static/js/2.59cc8ab2.chunk.js.map",
+    "static/js/3.b1f1ca08.chunk.js": "/static/js/3.b1f1ca08.chunk.js",
+    "static/js/3.b1f1ca08.chunk.js.map": "/static/js/3.b1f1ca08.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2fb5e29c.chunk.css.map": "/static/css/main.2fb5e29c.chunk.css.map",
+    "static/js/2.59cc8ab2.chunk.js.LICENSE.txt": "/static/js/2.59cc8ab2.chunk.js.LICENSE.txt",
+    "static/media/Bath-Bomb-Footer-Img.b99f4a7b.webp": "/static/media/Bath-Bomb-Footer-Img.b99f4a7b.webp",
+    "static/media/Bath-Bomb-Hero-Img.23f435d1.webp": "/static/media/Bath-Bomb-Hero-Img.23f435d1.webp",
+    "static/media/Bath-Bomb-Image-1.ce0f0b3e.webp": "/static/media/Bath-Bomb-Image-1.ce0f0b3e.webp",
+    "static/media/Bath-Bomb-Image-2.83e49ea3.jpg": "/static/media/Bath-Bomb-Image-2.83e49ea3.jpg",
+    "static/media/Logologo_1.e5baec80.svg": "/static/media/Logologo_1.e5baec80.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb40e190.js",
-    "static/js/2.20cc68ce.chunk.js",
+    "static/js/runtime-main.d1a5da6f.js",
+    "static/js/2.59cc8ab2.chunk.js",
     "static/css/main.2fb5e29c.chunk.css",
-    "static/js/main.8ea394db.chunk.js"
+    "static/js/main.81ea39e2.chunk.js"
   ]
 }
