@@ -18,7 +18,7 @@ const NavMenu = () => {
     const { isMenuOpen, closeMenu } = useContext(ShopContext)
 
     return (
-        <Drawer isOpen={isMenuOpen} onClose={closeMenu} placement='left' size='sm' >
+        <Drawer isOpen={isMenuOpen} onClose={closeMenu} placement='left' size='xs' >
             <DrawerOverlay>
                 <DrawerContent>
                     <DrawerCloseButton />
@@ -26,9 +26,9 @@ const NavMenu = () => {
                     
                     <DrawerBody>
                         <VStack p='2rem' >
-                            <Link to='/' >About Us</Link>
-                            <Link to='/' >Learn More</Link>
-                            <Link to='/' >Sustainability</Link>
+                            <Link to='/products/green-blast' cursor='pointer'>The Green Blast</Link>
+                            <Link to='/products/blue-berry' cursor='pointer'>The Blue Berry</Link>
+                            <Link to='/products/yellow-mello' cursor='pointer'>The Yellow Mello</Link>
                         </VStack>
                     </DrawerBody>
 
