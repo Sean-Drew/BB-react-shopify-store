@@ -16,7 +16,7 @@ function App() {
         <Cart />
         <NavMenu />
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/BB-react-shopify-store/'>
             <Home />
           </Route>
 
