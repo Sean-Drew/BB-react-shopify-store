@@ -8,10 +8,10 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 ReactDOM.render(
   <React.StrictMode>
-    <ChakraProvider>
+      <ChakraProvider>
 
       <ShopProvider>
-      <App />
+          <App />
       </ShopProvider>
 
     </ChakraProvider>

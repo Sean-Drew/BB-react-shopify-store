@@ -11,12 +11,12 @@ function App() {
   
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL} >
         <NavBar />
         <Cart />
         <NavMenu />
         <Switch>
-          <Route exact path='/BB-react-shopify-store/'>
+          <Route exact path='/'>
             <Home />
           </Route>
 
