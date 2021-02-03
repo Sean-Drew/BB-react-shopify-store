@@ -10,7 +10,7 @@ There are a few components to this web store including a rich home page, product
 
 My biggest takeaway from this was implementing a React SPA with BrowserRouter rather than HashRouter while it's hosted on Github. 
 
-Github pages didn't recognize the index for the project, but rather the index being whatever is published at your github pages which for me is my portfolio page. It resulted in an interesting bug that would load my portfolio whenever the user would try to navigate back to the home page. After some research and a bit of trial & error, adding ```basename={process.env.PUBLIC_URL``` as a prop to the Router wound up solving the problem.
+Github pages didn't recognize the index for the project, but rather the index being whatever is published at your github pages which for me is my portfolio page. It resulted in an interesting bug that would load my portfolio whenever the user would try to navigate back to the home page. After some research and a bit of trial & error, adding ```basename={process.env.PUBLIC_URL}``` as a prop to the Router wound up solving the problem.
 
 ---
 
