@@ -1,4 +1,6 @@
-# Bath Bomb Shopify Store
+# Luxe Bath Bombs - Shopify Store
+
+Hosted at: https://sean-drew.github.io/BB-react-shopify-store/
 
 Built with React, this web store connects to the Shopify API to handle product checkout and payment processing. This is a dev project and not a real store, so please **do not** make any purchases.
 
